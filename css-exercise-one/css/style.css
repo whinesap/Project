@@ -1,0 +1,45 @@
+body{
+  font-size: 14px;
+}
+
+/* the following three sections affect only the nav bar elements */
+
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center
+}
+
+/* the following affect only div elements */
+
+h3 {
+  font-size: 1.3em;
+}
+
+.element, .feature {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.feature {
+  background-color: blue;
+}
